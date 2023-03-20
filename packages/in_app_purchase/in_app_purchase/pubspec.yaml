@@ -19,8 +19,8 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  in_app_purchase_platform_interface: ^1.0.0
-  in_app_purchase_storekit: ^0.3.4
+  in_app_purchase_platform_interface: ./packages/in_app_purchase/in_app_purchase_platform_interface
+  in_app_purchase_storekit: ./packages/in_app_purchase/in_app_purchase_storekit
 
 dev_dependencies:
   flutter_driver:
@@ -31,4 +31,3 @@ dev_dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.0
   test: ^1.16.0
-
