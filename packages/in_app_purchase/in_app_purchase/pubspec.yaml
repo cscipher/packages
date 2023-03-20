@@ -19,10 +19,8 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  in_app_purchase_platform_interface:
-    path: ./packages/in_app_purchase/in_app_purchase_platform_interface
-  in_app_purchase_storekit:
-    path: ./packages/in_app_purchase/in_app_purchase_storekit
+  in_app_purchase_platform_interface: ^1.0.0
+  in_app_purchase_storekit: ^0.3.4
 
 dev_dependencies:
   flutter_driver:
