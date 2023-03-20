@@ -11,8 +11,6 @@ environment:
 flutter:
   plugin:
     platforms:
-      android:
-        default_package: in_app_purchase_android
       ios:
         default_package: in_app_purchase_storekit
       macos:
@@ -21,7 +19,6 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  in_app_purchase_android: ^0.2.3
   in_app_purchase_platform_interface: ^1.0.0
   in_app_purchase_storekit: ^0.3.4
 
@@ -35,8 +32,3 @@ dev_dependencies:
   plugin_platform_interface: ^2.0.0
   test: ^1.16.0
 
-screenshots:
-  - description: 'Example of in-app purchase on ios'
-    path: doc/iap_ios.gif
-  - description: 'Example of in-app purchase on android'
-    path: doc/iap_android.gif
